@@ -1,0 +1,45 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void MetaOpenXRHandMeshData_TryGetMeshData_m1D6FD5B864462AD2C842146EDA63EEE3B5C3FF75 (void);
+extern void MetaOpenXRHandMeshData_TryGetMeshData_m6B004FA5D8A2F7992E6C2D11C318C9CA39A6A32C (void);
+extern void MetaOpenXRHandMeshData_OnSubsystemStart_mB038B85FDFEDBF8B38235ACCFB2919CC8309E424 (void);
+extern void MetaOpenXRHandMeshData_OpenXRCondensedIndexToUnityJointIndex_mDE8F6D4DA9CC4619E931D2DEAF99EC852CB899AA (void);
+extern void MetaOpenXRHandMeshData__ctor_m3060196B6F8A4C49EF543780EF121EC01B5AE181 (void);
+extern void MetaOpenXRHandMeshData__cctor_mE25268C94B9D7FAE6FB0E95B8757F9579E60B0D8 (void);
+extern void NativeApi_TryGetHandMeshDataCounts_m08E1A2F988D036F80A50A131D989130FB72D3C7C (void);
+extern void NativeApi_TryGetHandMeshData_mA8ED491D751CB23590634882899722EA0FCB9C21 (void);
+extern void NativeApi_GetXrResult_mBB0DE9634F3AD39CD7591A7487275C26A773D613 (void);
+static Il2CppMethodPointer s_methodPointers[9] = 
+{
+	MetaOpenXRHandMeshData_TryGetMeshData_m1D6FD5B864462AD2C842146EDA63EEE3B5C3FF75,
+	MetaOpenXRHandMeshData_TryGetMeshData_m6B004FA5D8A2F7992E6C2D11C318C9CA39A6A32C,
+	MetaOpenXRHandMeshData_OnSubsystemStart_mB038B85FDFEDBF8B38235ACCFB2919CC8309E424,
+	MetaOpenXRHandMeshData_OpenXRCondensedIndexToUnityJointIndex_mDE8F6D4DA9CC4619E931D2DEAF99EC852CB899AA,
+	MetaOpenXRHandMeshData__ctor_m3060196B6F8A4C49EF543780EF121EC01B5AE181,
+	MetaOpenXRHandMeshData__cctor_mE25268C94B9D7FAE6FB0E95B8757F9579E60B0D8,
+	NativeApi_TryGetHandMeshDataCounts_m08E1A2F988D036F80A50A131D989130FB72D3C7C,
+	NativeApi_TryGetHandMeshData_mA8ED491D751CB23590634882899722EA0FCB9C21,
+	NativeApi_GetXrResult_mBB0DE9634F3AD39CD7591A7487275C26A773D613,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MetaHandMeshData_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MetaHandMeshData_CodeGenModule = 
+{
+	"Unity.XR.OpenXR.Features.MetaHandMeshData.dll",
+	9,
+	s_methodPointers,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

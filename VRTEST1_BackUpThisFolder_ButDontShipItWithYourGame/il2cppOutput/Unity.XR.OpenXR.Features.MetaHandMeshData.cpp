@@ -1,0 +1,1807 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752;
+struct Action_1_tCFC7B8B521D00ABC92F334305388902DFB6AC890;
+struct Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD;
+struct Action_2_tA93638A9D51C46813D719FA524415A74B9B2EADF;
+struct Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997;
+struct Dictionary_2_tB3A6FD4534611CB161EB80F94B112C862E8998C0;
+struct Dictionary_2_t3B493B7CC2517037FEFC2E8B8F7C2B473A42DF0D;
+struct List_1_t8463D6E8766F823573C7FF81CA9AC38D1F351FFF;
+struct List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE;
+struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179;
+struct List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E;
+struct List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A;
+struct SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2;
+struct SubsystemWithProvider_3_tDDCFC3734A3F5FC59E253F00C18C173C1B147158;
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct XRHandAimStateU5BU5D_t0076289643604F274ED85C15E336BB86EADDDB4F;
+struct XRHandSubsystemU5BU5D_t50FB94CEB7EB1A2A292728A49A7B732A8CF8C50F;
+struct __CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979;
+struct StatePerHandU5BU5D_tBD75D18C0C0C613F8CFBB12A324E05D0C7863809;
+struct IOpenXRHandMeshDataSupplier_tEB3E291262948AA38ED0CBB42D5B88F80108F625;
+struct MetaHandTrackingAim_tF033F668DE2818AABC72B2609279A379771515BA;
+struct MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83;
+struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143;
+struct OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1;
+struct String_t;
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
+struct Type_t;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C;
+struct XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73;
+struct XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996;
+
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral919C5C755A41E9C44D909492C10DA17D0C000992;
+IL2CPP_EXTERN_C String_t* _stringLiteralBDC4F981632298101FD2D1F320BBDE99FD9050AE;
+IL2CPP_EXTERN_C String_t* _stringLiteralFFE607C14C59FCB309C49552E8D59280FD6BB4BB;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m268FFF017FCAC1B2C7C25F50382BFE0E63EB9D8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m78ECC3FE24D545255D9CFABB81FC34CA6CC2A4A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var;
+
+struct __CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t70CE114EC7FBFC1BFDB2DBDA1245B88E53942AD5 
+{
+};
+struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179  : public RuntimeObject
+{
+	XRHandSubsystemU5BU5D_t50FB94CEB7EB1A2A292728A49A7B732A8CF8C50F* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E  : public RuntimeObject
+{
+	__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455  : public RuntimeObject
+{
+	bool ___m_Running;
+};
+struct SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242  : public RuntimeObject
+{
+	bool ___U3CrunningU3Ek__BackingField;
+	SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455* ___U3CproviderBaseU3Ek__BackingField;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct NativeApi_tA1CFFA928ACB5A1D930FA3920C600D09CF95DE28  : public RuntimeObject
+{
+};
+struct Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 
+{
+	List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ____current;
+};
+struct Enumerator_tC367FBE981D257FF6A6357382526F6EC9FF3B2F9 
+{
+	List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	Il2CppSharedGenericObject* ____current;
+};
+typedef Il2CppFullySharedGenericStruct Enumerator_tF5AC6CD19D283FBD724440520CEE68FE2602F7AF;
+struct SubsystemProvider_1_tE92B070330A06745C300EB6C7651296BF8647284  : public SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455
+{
+};
+struct SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2  : public SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242
+{
+	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* ___U3CsubsystemDescriptorU3Ek__BackingField;
+	XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* ___U3CproviderU3Ek__BackingField;
+};
+struct BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F 
+{
+	float ___m_Weight;
+	int32_t ___m_BoneIndex;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD 
+{
+	uint64_t ___m_DeviceId;
+	bool ___m_Initialized;
+};
+struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_marshaled_pinvoke
+{
+	uint64_t ___m_DeviceId;
+	int32_t ___m_Initialized;
+};
+struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_marshaled_com
+{
+	uint64_t ___m_DeviceId;
+	int32_t ___m_Initialized;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF 
+{
+	uint64_t ___m_value;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221 
+{
+	Action_1_tA5BB3B448032556F9B88238989FE8332EB5F49AD* ___beginTryUpdateHands;
+};
+struct XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221_marshaled_pinvoke
+{
+	Il2CppMethodPointer ___beginTryUpdateHands;
+};
+struct XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221_marshaled_com
+{
+	Il2CppMethodPointer ___beginTryUpdateHands;
+};
+struct Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 
+{
+	String_t* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	bool ___U3CsupportsAimPoseU3Ek__BackingField;
+	bool ___U3CsupportsAimActivateValueU3Ek__BackingField;
+	bool ___U3CsupportsGraspValueU3Ek__BackingField;
+	bool ___U3CsupportsGripPoseU3Ek__BackingField;
+	bool ___U3CsupportsPinchPoseU3Ek__BackingField;
+	bool ___U3CsupportsPinchValueU3Ek__BackingField;
+	bool ___U3CsupportsPokePoseU3Ek__BackingField;
+};
+struct Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81_marshaled_pinvoke
+{
+	char* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	int32_t ___U3CsupportsAimPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsAimActivateValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGraspValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGripPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchValueU3Ek__BackingField;
+	int32_t ___U3CsupportsPokePoseU3Ek__BackingField;
+};
+struct Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81_marshaled_com
+{
+	Il2CppChar* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	int32_t ___U3CsupportsAimPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsAimActivateValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGraspValueU3Ek__BackingField;
+	int32_t ___U3CsupportsGripPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchPoseU3Ek__BackingField;
+	int32_t ___U3CsupportsPinchValueU3Ek__BackingField;
+	int32_t ___U3CsupportsPokePoseU3Ek__BackingField;
+};
+struct Nullable_1_t851941928DEC1FDAD14F29EA4FCA4DD2D5CB838F 
+{
+	bool ___hasValue;
+	Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 ___value;
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F 
+{
+	int32_t ___value__;
+};
+struct NativeArrayOptions_t3E979EEF4B4840228A7692A97DA07553C6465F1D 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct XRHandDevicePoseSource_tCB7758BE960CEA74FCD0A36D4F07241F942942BC 
+{
+	int32_t ___value__;
+};
+struct XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081 
+{
+	int32_t ___value__;
+};
+struct XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996  : public SubsystemProvider_1_tE92B070330A06745C300EB6C7651296BF8647284
+{
+};
+struct UpdateSuccessFlags_t7457DB6474B1997021A99D28BFE0299887980B18 
+{
+	int32_t ___value__;
+};
+struct NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t617E9AB997FA976725092F465E5BB075180FFF30 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1  : public XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996
+{
+	bool ___m_IsHandInteractionProfileEnabled;
+	RuntimeObject* ___U3ChandMeshDataSupplierU3Ek__BackingField;
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___m_LeftHandInteractionDevice;
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___m_RightHandInteractionDevice;
+	bool ___m_IsValid;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___m_AgnosticAimStatesValidity;
+	XRHandAimStateU5BU5D_t0076289643604F274ED85C15E336BB86EADDDB4F* ___m_AgnosticAimStates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct XRHandMeshDataQueryParams_tD2F5B8FA7C69F106E535B66025498042C430A7C9 
+{
+	int32_t ___U3CallocatorU3Ek__BackingField;
+};
+struct XRHandSubsystemConfiguration_tD08889BA189D072767D33A6F95E36B6D5894B591 
+{
+	int32_t ___U3CxrHandDevicePoseSourceU3Ek__BackingField;
+};
+struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	bool ___m_enabled;
+	bool ___U3CfailedInitializationU3Ek__BackingField;
+	String_t* ___nameUi;
+	String_t* ___version;
+	String_t* ___featureIdInternal;
+	String_t* ___openxrExtensionStrings;
+	String_t* ___company;
+	int32_t ___priority;
+	String_t* ___targetOpenXRApiVersion;
+	bool ___required;
+	String_t* ___customRuntimeLoaderName;
+	bool ___internalFieldsUpdated;
+};
+struct XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 
+{
+	int32_t ___U3ChandednessU3Ek__BackingField;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	bool ___m_IsRootPoseValid;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___m_VertexIndices;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_VertexPositions;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_VertexNormals;
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___m_VertexUVs;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_MatchingJointBindPoseIsValid;
+	NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 ___m_JointBindPoses;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_MatchingJointRadiusIsValid;
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___m_JointRadii;
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_BonesPerVertex;
+	NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E ___m_BoneWeights;
+};
+struct XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6_marshaled_pinvoke
+{
+	int32_t ___U3ChandednessU3Ek__BackingField;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	int32_t ___m_IsRootPoseValid;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___m_VertexIndices;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_VertexPositions;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_VertexNormals;
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___m_VertexUVs;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_MatchingJointBindPoseIsValid;
+	NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 ___m_JointBindPoses;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_MatchingJointRadiusIsValid;
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___m_JointRadii;
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_BonesPerVertex;
+	NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E ___m_BoneWeights;
+};
+struct XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6_marshaled_com
+{
+	int32_t ___U3ChandednessU3Ek__BackingField;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	int32_t ___m_IsRootPoseValid;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___m_VertexIndices;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_VertexPositions;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_VertexNormals;
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___m_VertexUVs;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_MatchingJointBindPoseIsValid;
+	NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 ___m_JointBindPoses;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_MatchingJointRadiusIsValid;
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___m_JointRadii;
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_BonesPerVertex;
+	NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E ___m_BoneWeights;
+};
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C  : public SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2
+{
+	Action_1_tCFC7B8B521D00ABC92F334305388902DFB6AC890* ___configurationUpdated;
+	XRHandSubsystemConfiguration_tD08889BA189D072767D33A6F95E36B6D5894B591 ___m_XRHandSubsystemConfiguration;
+	Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* ___updatedHands;
+	Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* ___trackingAcquired;
+	Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* ___trackingLost;
+	Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* ___preprocessJoints;
+	StatePerHandU5BU5D_tBD75D18C0C0C613F8CFBB12A324E05D0C7863809* ___m_StatePerHand;
+	int32_t ___m_UpdateSuccessFlags;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_JointsInLayout;
+	List_1_t8463D6E8766F823573C7FF81CA9AC38D1F351FFF* ___m_Processors;
+	XRHandSubsystemActions_t03691377110983C05157D075A90C3CCF259E7221 ___m_Actions;
+	Dictionary_2_t3B493B7CC2517037FEFC2E8B8F7C2B473A42DF0D* ___m_ExtendedDataHandlers;
+	Dictionary_2_tB3A6FD4534611CB161EB80F94B112C862E8998C0* ___m_ConfigurationHandlers;
+	Action_2_tA93638A9D51C46813D719FA524415A74B9B2EADF* ___handsUpdated;
+};
+struct MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83  : public OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143
+{
+};
+struct XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5 
+{
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 ___m_LeftHand;
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 ___m_RightHand;
+};
+struct XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5_marshaled_pinvoke
+{
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6_marshaled_pinvoke ___m_LeftHand;
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6_marshaled_pinvoke ___m_RightHand;
+};
+struct XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5_marshaled_com
+{
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6_marshaled_com ___m_LeftHand;
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6_marshaled_com ___m_RightHand;
+};
+struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179_StaticFields
+{
+	XRHandSubsystemU5BU5D_t50FB94CEB7EB1A2A292728A49A7B732A8CF8C50F* ___s_emptyArray;
+};
+struct List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E_StaticFields
+{
+	__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* ___s_emptyArray;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
+{
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity;
+};
+struct OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1_StaticFields
+{
+	List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* ___s_DevicesReuse;
+	String_t* ___U3CidU3Ek__BackingField;
+	MetaHandTrackingAim_tF033F668DE2818AABC72B2609279A379771515BA* ___s_MetaAim;
+	bool ___s_SubsystemRegistered;
+	Nullable_1_t851941928DEC1FDAD14F29EA4FCA4DD2D5CB838F ___s_RegisteredDescriptorCinfo;
+};
+struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143_StaticFields
+{
+	bool ___U3CrequiredFeatureFailedU3Ek__BackingField;
+};
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_TryUpdateHandsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_RetrieveCommonPoseDataMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_TrackingEventsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_ProviderTryUpdateHandsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___s_PostUpdateMarker;
+};
+struct MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticFields
+{
+	List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ___s_SubsystemsReuse;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct __CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Il2CppSharedGenericObject* m_Items[1];
+
+	inline Il2CppSharedGenericObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppSharedGenericObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppSharedGenericObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Il2CppSharedGenericObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppSharedGenericObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppSharedGenericObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m3BD4A8E22C054A133B02C2650BA70B61D0E03087_gshared (NativeArray_1_t617E9AB997FA976725092F465E5BB075180FFF30* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004 (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mD6D2D9E805E66DA9D5A8766ADB32AE63A4D306D0 (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mFD9836AFB0757330727FED396E637FB060E30DF5 (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___0_nativeArray, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m3AA1E82EAEB95DA91CC476B1CF8FF343C89C5461_gshared (NativeArray_1_t617E9AB997FA976725092F465E5BB075180FFF30* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6 (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6 (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m78ECC3FE24D545255D9CFABB81FC34CA6CC2A4A7 (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m262609CCB123CE8BB59524B83D08D2CFA8C33A86 (NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mFF0947593CDFCB7E202D87A3000C4E66C1647856 (NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m981CC7E27B6C9946024877F2696920951443B04F (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mA343D643CB081518C3592D77B4668B00DA420AC9 (NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemManager_GetSubsystems_TisIl2CppSharedGenericObject_m00A035460A8F20C977A9F4CB69E45ED27176488B_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* ___0_subsystems, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tC367FBE981D257FF6A6357382526F6EC9FF3B2F9 List_1_GetEnumerator_mD48177D95D4B5D6A9D8E84E2477668C2850DD5D9_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mFE1EBE6F6425283FEAEAE7C79D02CDE4F9D367E8_fshared (Enumerator_tF5AC6CD19D283FBD724440520CEE68FE2602F7AF* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* Enumerator_get_Current_mA50CED82C4671CC4E1D82333FAC2587F700565D0_gshared_inline (Enumerator_tC367FBE981D257FF6A6357382526F6EC9FF3B2F9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* SubsystemExtensions_GetProvider_TisIl2CppSharedGenericObject_TisIl2CppSharedGenericObject_TisIl2CppSharedGenericObject_m7FA450DA7D0739D6C919C17736E9A5CF0D6F484B_gshared (SubsystemWithProvider_3_tDDCFC3734A3F5FC59E253F00C18C173C1B147158* ___0_subsystem, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mCCC05B98943E8F4E0F6FBF47063A269048AE71E5_gshared_inline (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m2B096A69E95EF2C7A223BA853D66AEC59C4A5C25_gshared (Enumerator_tC367FBE981D257FF6A6357382526F6EC9FF3B2F9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7378BA5FBCA1E88080985FB810820B3F47DAD54C_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, const RuntimeMethod* method) ;
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandMeshDataQueryParams_get_allocator_mAEC1A96EDDB235C4C9151AEDE3C51647B314A90C_inline (XRHandMeshDataQueryParams_tD2F5B8FA7C69F106E535B66025498042C430A7C9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MetaOpenXRHandMeshData_TryGetMeshData_m6B004FA5D8A2F7992E6C2D11C318C9CA39A6A32C (MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83* __this, XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* ___0_result, int32_t ___1_allocator, int32_t ___2_handedness, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t OpenXRHandExtensions_GetOpenXRHandTrackerHandle_m546E2CAA4230A8EAEBF726D454DE5DA0D671598E (int32_t ___0_handedness, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_TryGetHandMeshDataCounts_m08E1A2F988D036F80A50A131D989130FB72D3C7C (int32_t* ___0_jointCount, int32_t* ___1_indexCount, int32_t* ___2_vertexCount, uint64_t ___3_xrHandTracker, const RuntimeMethod* method) ;
+inline void NativeArray_1__ctor_m3A231647115696EF1F8F6FED61AB01A59A4ECF49 (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m3BD4A8E22C054A133B02C2650BA70B61D0E03087_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004 (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mD6D2D9E805E66DA9D5A8766ADB32AE63A4D306D0 (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mFD9836AFB0757330727FED396E637FB060E30DF5 (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisXRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_m6CACCD75844BF72BE052A1584C1205C22CB240F1_inline (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84 ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline)(___0_nativeArray, method);
+}
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mA363E6C0AAA0CA0F185BB7497493812544D36C7C_inline (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline)(___0_nativeArray, method);
+}
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m390EFBCA8A0D0562B6B28C5CFE8947408E4DC14F_inline (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline)(___0_nativeArray, method);
+}
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_inline (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline)(___0_nativeArray, method);
+}
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mB893A445FD5C5759C9BEDB2EF5037667D4985897_inline (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline)(___0_nativeArray, method);
+}
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m2B0D2CB30FDAA96454AA1E55D86254BBE984DA53_inline (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline)(___0_nativeArray, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_TryGetHandMeshData_mA8ED491D751CB23590634882899722EA0FCB9C21 (uint64_t ___0_xrHandTracker, int32_t ___1_jointCount, void* ___2_jointIDs, void* ___3_jointBindPoses, void* ___4_jointRadii, int32_t ___5_indexCount, void* ___6_indices, int32_t ___7_vertexCount, void* ___8_positions, void* ___9_normals, void* ___10_uvs, void* ___11_blendIndices, void* ___12_blendWeights, const RuntimeMethod* method) ;
+inline bool NativeArray_1_get_IsCreated_mEBB969E3DD424139A833600C71FCAA756D76F3E5_inline (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84*, const RuntimeMethod*))NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline)(__this, method);
+}
+inline void NativeArray_1_Dispose_m268FFF017FCAC1B2C7C25F50382BFE0E63EB9D8C (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84* __this, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84*, const RuntimeMethod*))NativeArray_1_Dispose_m3AA1E82EAEB95DA91CC476B1CF8FF343C89C5461_gshared)(__this, method);
+}
+inline bool NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_inline (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*, const RuntimeMethod*))NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6 (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method) ;
+inline bool NativeArray_1_get_IsCreated_m318928FA479173AFA6DEB47FF3B9D54868151D87_inline (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF*, const RuntimeMethod*))NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6 (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* __this, const RuntimeMethod* method) ;
+inline bool NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*, const RuntimeMethod*))NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) ;
+inline bool NativeArray_1_get_IsCreated_m4C7111E17A3D26D147222F544FFE7A1F4F3D7DE9_inline (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD*, const RuntimeMethod*))NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* __this, const RuntimeMethod* method) ;
+inline bool NativeArray_1_get_IsCreated_m478F812F31DEC928EC9D697C47C7E188CCA0010F_inline (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70*, const RuntimeMethod*))NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m78ECC3FE24D545255D9CFABB81FC34CA6CC2A4A7 (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 XRHandMeshDataQueryResult_get_rightHand_m140AF204DC793948EF032F9218892B205F916AF3_inline (XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 XRHandMeshDataQueryResult_get_leftHand_m0AF3981474F9C9CFDE7DF92C5D1DF0538E95B10D_inline (XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshDataExtensions_SetIndices_m10830D3D55F552588D35A8D1FD1496E9A9D47916 (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* ___0_meshData, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___1_indices, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshDataExtensions_SetPositions_mB1ACB356A2CB19D881C73E55CA2F6BB33EFE5D44 (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* ___0_meshData, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___1_positions, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshDataExtensions_SetNormals_m09AB2BB89C6B9491FB1074E008A88E4AB2A010ED (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* ___0_meshData, NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___1_normals, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshDataExtensions_SetUVs_m5FAA92024C8CAA55442B72C0AA2A0C5188A0EFE2 (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* ___0_meshData, NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___1_uvs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02 (int32_t ___0_jointId, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m262609CCB123CE8BB59524B83D08D2CFA8C33A86 (NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mFF0947593CDFCB7E202D87A3000C4E66C1647856 (NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MetaOpenXRHandMeshData_OpenXRCondensedIndexToUnityJointIndex_mDE8F6D4DA9CC4619E931D2DEAF99EC852CB899AA (int32_t ___0_condensedIndex, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Matrix4x4_SetTRS_m8002A569FE81574DABE86044C8FF6F7C44DA21AA_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshData_SetMatchingJointBindPoseValidity_mB26B232C34D1E4C634A5CD4E870F25156819A7A0 (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* __this, NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___0_matchingJointPoseIsValid, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshData_SetJointBindPoses_m040902019DFC53B1A521393D45724C0381E54C26 (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* __this, NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 ___0_jointBindPoses, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshData_SetMatchingJointRadiusValidity_m121F276D5E0EC20FB1A5AF601E6905ACBDB37643 (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* __this, NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___0_matchingJointRadiusIsValid, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshData_SetJointRadii_m9F019C3F65299B28182CF8C93E9351467A264AB4 (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* __this, NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___0_jointRadii, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m981CC7E27B6C9946024877F2696920951443B04F (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mA343D643CB081518C3592D77B4668B00DA420AC9 (NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BoneWeight1_set_boneIndex_m3DC5B02092B8744AD7ACC6B0385FCD7B5B94DC97_inline (BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BoneWeight1_set_weight_mB933F788F48F33DBF1B353250D3ACC8DBD0B77B2_inline (BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshDataExtensions_SetBonesPerVertex_m1DFD1706F4C527F1FC66887836E0BD87E4ECD52D (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* ___0_meshData, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_bonesPerVertex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshDataExtensions_SetBoneWeights_m6D0BFDB803A5F60E59611A555BCFB2B049AF334C (XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6* ___0_meshData, NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E ___1_boneWeights, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshDataQueryResultExtensions_FlushChanges_m9CBCFF91C2694481A2FDA013C6C7E6ACD963D955 (XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* ___0_result, XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 ___1_meshData, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (String_t* ___0_permission, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (String_t* ___0_permission, const RuntimeMethod* method) ;
+inline void SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73 (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ___0_subsystems, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, const RuntimeMethod*))SubsystemManager_GetSubsystems_TisIl2CppSharedGenericObject_m00A035460A8F20C977A9F4CB69E45ED27176488B_gshared)(___0_subsystems, method);
+}
+inline Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, const RuntimeMethod*))List_1_GetEnumerator_mD48177D95D4B5D6A9D8E84E2477668C2850DD5D9_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m86E1F3F8308D0DEAD0F6F76BA76F94DC8B2073AE (Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717*, const RuntimeMethod*))Enumerator_Dispose_mFE1EBE6F6425283FEAEAE7C79D02CDE4F9D367E8_fshared)(__this, method);
+}
+inline XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_inline (Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* (*) (Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717*, const RuntimeMethod*))Enumerator_get_Current_mA50CED82C4671CC4E1D82333FAC2587F700565D0_gshared_inline)(__this, method);
+}
+inline XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55 (SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2* ___0_subsystem, const RuntimeMethod* method)
+{
+	return ((  XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* (*) (SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2*, const RuntimeMethod*))SubsystemExtensions_GetProvider_TisIl2CppSharedGenericObject_TisIl2CppSharedGenericObject_TisIl2CppSharedGenericObject_m7FA450DA7D0739D6C919C17736E9A5CF0D6F484B_gshared)(___0_subsystem, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OpenXRHandProvider_set_handMeshDataSupplier_m90F86479CABEE6580957B4DFA390A3BEC74055FF_inline (OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+inline void List_1_Clear_mA8DB8A7C0BB7FB3593D4AF91C5A693116E2CB9FF_inline (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, const RuntimeMethod*))List_1_Clear_mCCC05B98943E8F4E0F6FBF47063A269048AE71E5_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B (Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717*, const RuntimeMethod*))Enumerator_MoveNext_m2B096A69E95EF2C7A223BA853D66AEC59C4A5C25_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_m120460E34ECC22ED2DB96797A6DCB5C870E78852 (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, const RuntimeMethod* method) ;
+inline void List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4 (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, const RuntimeMethod*))List_1__ctor_m7378BA5FBCA1E88080985FB810820B3F47DAD54C_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_Internal_SetTRS_m2610FA3527F167AB26DF3712CAA6A958225017C9 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_m, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___2_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___3_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_UnityOpenXR_INTERNAL
+IL2CPP_EXTERN_C int32_t STDCALL UnityOpenXRHands_TryGetHandMeshDataCounts(int32_t*, int32_t*, int32_t*, uint64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_UnityOpenXR_INTERNAL
+IL2CPP_EXTERN_C int32_t STDCALL UnityOpenXRHands_TryGetHandMeshData(uint64_t, int32_t, void*, void*, void*, int32_t, void*, int32_t, void*, void*, void*, void*, void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_UnityOpenXR_INTERNAL
+IL2CPP_EXTERN_C int64_t STDCALL UnityOpenXRHands_GetHandMeshXrResult();
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77100
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MetaOpenXRHandMeshData_TryGetMeshData_m1D6FD5B864462AD2C842146EDA63EEE3B5C3FF75 (MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83* __this, XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* ___0_result, XRHandMeshDataQueryParams_tD2F5B8FA7C69F106E535B66025498042C430A7C9* ___1_queryParams, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	bool V_0 = false;
+	{
+		XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* L_0 = ___0_result;
+		XRHandMeshDataQueryParams_tD2F5B8FA7C69F106E535B66025498042C430A7C9* L_1 = ___1_queryParams;
+		int32_t L_2;
+		L_2 = XRHandMeshDataQueryParams_get_allocator_mAEC1A96EDDB235C4C9151AEDE3C51647B314A90C_inline(L_1, NULL);
+		bool L_3;
+		L_3 = MetaOpenXRHandMeshData_TryGetMeshData_m6B004FA5D8A2F7992E6C2D11C318C9CA39A6A32C(__this, L_0, L_2, 1, NULL);
+		XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* L_4 = ___0_result;
+		XRHandMeshDataQueryParams_tD2F5B8FA7C69F106E535B66025498042C430A7C9* L_5 = ___1_queryParams;
+		int32_t L_6;
+		L_6 = XRHandMeshDataQueryParams_get_allocator_mAEC1A96EDDB235C4C9151AEDE3C51647B314A90C_inline(L_5, NULL);
+		bool L_7;
+		L_7 = MetaOpenXRHandMeshData_TryGetMeshData_m6B004FA5D8A2F7992E6C2D11C318C9CA39A6A32C(__this, L_4, L_6, 2, NULL);
+		V_0 = L_7;
+		bool L_8 = V_0;
+		return (bool)((int32_t)((int32_t)L_3|(int32_t)L_8));
+	}
+}
+// Method Definition Index: 77101
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MetaOpenXRHandMeshData_TryGetMeshData_m6B004FA5D8A2F7992E6C2D11C318C9CA39A6A32C (MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83* __this, XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* ___0_result, int32_t ___1_allocator, int32_t ___2_handedness, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m268FFF017FCAC1B2C7C25F50382BFE0E63EB9D8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m78ECC3FE24D545255D9CFABB81FC34CA6CC2A4A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticInit);
+	//<source_info:<no-source>:1>
+	uint64_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	int32_t V_14 = 0;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB V_17;
+	memset((&V_17), 0, sizeof(V_17));
+	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF V_22;
+	memset((&V_22), 0, sizeof(V_22));
+	NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E V_23;
+	memset((&V_23), 0, sizeof(V_23));
+	int32_t V_24 = 0;
+	int32_t V_25 = 0;
+	BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F V_26;
+	memset((&V_26), 0, sizeof(V_26));
+	XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 G_B34_0;
+	memset((&G_B34_0), 0, sizeof(G_B34_0));
+	{
+		int32_t L_0 = ___2_handedness;
+		uint64_t L_1;
+		L_1 = OpenXRHandExtensions_GetOpenXRHandTrackerHandle_m546E2CAA4230A8EAEBF726D454DE5DA0D671598E(L_0, NULL);
+		V_0 = L_1;
+		uint64_t L_2 = V_0;
+		int32_t L_3;
+		L_3 = NativeApi_TryGetHandMeshDataCounts_m08E1A2F988D036F80A50A131D989130FB72D3C7C((&V_1), (&V_2), (&V_3), L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_6 = V_3;
+		if (L_6)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_001e:
+	{
+		return (bool)0;
+	}
+
+IL_0020:
+	{
+		il2cpp_codegen_initobj((&V_4), sizeof(NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84));
+		il2cpp_codegen_initobj((&V_5), sizeof(NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347));
+		il2cpp_codegen_initobj((&V_6), sizeof(NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF));
+		il2cpp_codegen_initobj((&V_7), sizeof(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C));
+		il2cpp_codegen_initobj((&V_8), sizeof(NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD));
+		il2cpp_codegen_initobj((&V_9), sizeof(NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD));
+		il2cpp_codegen_initobj((&V_10), sizeof(NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70));
+		il2cpp_codegen_initobj((&V_11), sizeof(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C));
+		il2cpp_codegen_initobj((&V_12), sizeof(NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF));
+		int32_t L_7 = V_1;
+		if ((((int32_t)L_7) <= ((int32_t)0)))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		int32_t L_8 = V_1;
+		NativeArray_1__ctor_m3A231647115696EF1F8F6FED61AB01A59A4ECF49((&V_4), L_8, 2, 1, NULL);
+		int32_t L_9 = V_1;
+		NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B((&V_5), L_9, 2, 1, NULL);
+		int32_t L_10 = V_1;
+		NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004((&V_6), L_10, 2, 1, NULL);
+	}
+
+IL_008a:
+	{
+		int32_t L_11 = V_2;
+		if ((((int32_t)L_11) <= ((int32_t)0)))
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		int32_t L_12 = V_2;
+		int32_t L_13 = ___1_allocator;
+		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_7), L_12, L_13, 1, NULL);
+	}
+
+IL_0098:
+	{
+		int32_t L_14 = V_3;
+		if ((((int32_t)L_14) <= ((int32_t)0)))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		int32_t L_15 = V_3;
+		int32_t L_16 = ___1_allocator;
+		NativeArray_1__ctor_mD6D2D9E805E66DA9D5A8766ADB32AE63A4D306D0((&V_8), L_15, L_16, 1, NULL);
+		int32_t L_17 = V_3;
+		int32_t L_18 = ___1_allocator;
+		NativeArray_1__ctor_mD6D2D9E805E66DA9D5A8766ADB32AE63A4D306D0((&V_9), L_17, L_18, 1, NULL);
+		int32_t L_19 = V_3;
+		int32_t L_20 = ___1_allocator;
+		NativeArray_1__ctor_mFD9836AFB0757330727FED396E637FB060E30DF5((&V_10), L_19, L_20, 1, NULL);
+		int32_t L_21 = V_3;
+		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_11), ((int32_t)il2cpp_codegen_multiply(L_21, 4)), 2, 1, NULL);
+		int32_t L_22 = V_3;
+		NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004((&V_12), ((int32_t)il2cpp_codegen_multiply(L_22, 4)), 2, 1, NULL);
+	}
+
+IL_00d2:
+	{
+		uint64_t L_23 = V_0;
+		int32_t L_24 = V_1;
+		NativeArray_1_t0285DCC37ADDC064C7F2705A96B98C936EBBDC84 L_25 = V_4;
+		void* L_26;
+		L_26 = NativeArrayUnsafeUtility_GetUnsafePtr_TisXRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_m6CACCD75844BF72BE052A1584C1205C22CB240F1_inline(L_25, NULL);
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 L_27 = V_5;
+		void* L_28;
+		L_28 = NativeArrayUnsafeUtility_GetUnsafePtr_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mA363E6C0AAA0CA0F185BB7497493812544D36C7C_inline(L_27, NULL);
+		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_29 = V_6;
+		void* L_30;
+		L_30 = NativeArrayUnsafeUtility_GetUnsafePtr_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m390EFBCA8A0D0562B6B28C5CFE8947408E4DC14F_inline(L_29, NULL);
+		int32_t L_31 = V_2;
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_32 = V_7;
+		void* L_33;
+		L_33 = NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_inline(L_32, NULL);
+		int32_t L_34 = V_3;
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_35 = V_8;
+		void* L_36;
+		L_36 = NativeArrayUnsafeUtility_GetUnsafePtr_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mB893A445FD5C5759C9BEDB2EF5037667D4985897_inline(L_35, NULL);
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_37 = V_9;
+		void* L_38;
+		L_38 = NativeArrayUnsafeUtility_GetUnsafePtr_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mB893A445FD5C5759C9BEDB2EF5037667D4985897_inline(L_37, NULL);
+		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 L_39 = V_10;
+		void* L_40;
+		L_40 = NativeArrayUnsafeUtility_GetUnsafePtr_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m2B0D2CB30FDAA96454AA1E55D86254BBE984DA53_inline(L_39, NULL);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_41 = V_11;
+		void* L_42;
+		L_42 = NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_inline(L_41, NULL);
+		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_43 = V_12;
+		void* L_44;
+		L_44 = NativeArrayUnsafeUtility_GetUnsafePtr_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m390EFBCA8A0D0562B6B28C5CFE8947408E4DC14F_inline(L_43, NULL);
+		int32_t L_45;
+		L_45 = NativeApi_TryGetHandMeshData_mA8ED491D751CB23590634882899722EA0FCB9C21(L_23, L_24, L_26, L_28, L_30, L_31, L_33, L_34, L_36, L_38, L_40, L_42, L_44, NULL);
+		if (L_45)
+		{
+			goto IL_01b1;
+		}
+	}
+	{
+		bool L_46;
+		L_46 = NativeArray_1_get_IsCreated_mEBB969E3DD424139A833600C71FCAA756D76F3E5_inline((&V_4), NULL);
+		if (!L_46)
+		{
+			goto IL_012f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_m268FFF017FCAC1B2C7C25F50382BFE0E63EB9D8C((&V_4), NativeArray_1_Dispose_m268FFF017FCAC1B2C7C25F50382BFE0E63EB9D8C_RuntimeMethod_var);
+	}
+
+IL_012f:
+	{
+		bool L_47;
+		L_47 = NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_inline((&V_5), NULL);
+		if (!L_47)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6((&V_5), NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_RuntimeMethod_var);
+	}
+
+IL_013f:
+	{
+		bool L_48;
+		L_48 = NativeArray_1_get_IsCreated_m318928FA479173AFA6DEB47FF3B9D54868151D87_inline((&V_6), NULL);
+		if (!L_48)
+		{
+			goto IL_014f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6((&V_6), NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6_RuntimeMethod_var);
+	}
+
+IL_014f:
+	{
+		bool L_49;
+		L_49 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline((&V_7), NULL);
+		if (!L_49)
+		{
+			goto IL_015f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_7), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
+	}
+
+IL_015f:
+	{
+		bool L_50;
+		L_50 = NativeArray_1_get_IsCreated_m4C7111E17A3D26D147222F544FFE7A1F4F3D7DE9_inline((&V_8), NULL);
+		if (!L_50)
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC((&V_8), NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC_RuntimeMethod_var);
+	}
+
+IL_016f:
+	{
+		bool L_51;
+		L_51 = NativeArray_1_get_IsCreated_m4C7111E17A3D26D147222F544FFE7A1F4F3D7DE9_inline((&V_9), NULL);
+		if (!L_51)
+		{
+			goto IL_017f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC((&V_9), NativeArray_1_Dispose_mBC28A2733A6D979B9AFD3CE09FE8E9A2A8F7DEEC_RuntimeMethod_var);
+	}
+
+IL_017f:
+	{
+		bool L_52;
+		L_52 = NativeArray_1_get_IsCreated_m478F812F31DEC928EC9D697C47C7E188CCA0010F_inline((&V_10), NULL);
+		if (!L_52)
+		{
+			goto IL_018f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_m78ECC3FE24D545255D9CFABB81FC34CA6CC2A4A7((&V_10), NativeArray_1_Dispose_m78ECC3FE24D545255D9CFABB81FC34CA6CC2A4A7_RuntimeMethod_var);
+	}
+
+IL_018f:
+	{
+		bool L_53;
+		L_53 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline((&V_11), NULL);
+		if (!L_53)
+		{
+			goto IL_019f;
+		}
+	}
+	{
+		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_11), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
+	}
+
+IL_019f:
+	{
+		bool L_54;
+		L_54 = NativeArray_1_get_IsCreated_m318928FA479173AFA6DEB47FF3B9D54868151D87_inline((&V_12), NULL);
+		if (!L_54)
+		{
+			goto IL_01af;
+		}
+	}
+	{
+		NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6((&V_12), NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6_RuntimeMethod_var);
+	}
+
+IL_01af:
+	{
+		return (bool)0;
+	}
+
+IL_01b1:
+	{
+		int32_t L_55 = ___2_handedness;
+		if ((((int32_t)L_55) == ((int32_t)1)))
+		{
+			goto IL_01bd;
+		}
+	}
+	{
+		XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* L_56 = ___0_result;
+		XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 L_57;
+		L_57 = XRHandMeshDataQueryResult_get_rightHand_m140AF204DC793948EF032F9218892B205F916AF3_inline(L_56, NULL);
+		G_B34_0 = L_57;
+		goto IL_01c3;
+	}
+
+IL_01bd:
+	{
+		XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* L_58 = ___0_result;
+		XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 L_59;
+		L_59 = XRHandMeshDataQueryResult_get_leftHand_m0AF3981474F9C9CFDE7DF92C5D1DF0538E95B10D_inline(L_58, NULL);
+		G_B34_0 = L_59;
+	}
+
+IL_01c3:
+	{
+		V_13 = G_B34_0;
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_60 = V_7;
+		XRHandMeshDataExtensions_SetIndices_m10830D3D55F552588D35A8D1FD1496E9A9D47916((&V_13), L_60, NULL);
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_61 = V_8;
+		XRHandMeshDataExtensions_SetPositions_mB1ACB356A2CB19D881C73E55CA2F6BB33EFE5D44((&V_13), L_61, NULL);
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_62 = V_9;
+		XRHandMeshDataExtensions_SetNormals_m09AB2BB89C6B9491FB1074E008A88E4AB2A010ED((&V_13), L_62, NULL);
+		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 L_63 = V_10;
+		XRHandMeshDataExtensions_SetUVs_m5FAA92024C8CAA55442B72C0AA2A0C5188A0EFE2((&V_13), L_63, NULL);
+		int32_t L_64 = V_1;
+		if ((((int32_t)L_64) <= ((int32_t)0)))
+		{
+			goto IL_02e3;
+		}
+	}
+	{
+		int32_t L_65;
+		L_65 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
+		V_14 = L_65;
+		int32_t L_66 = V_14;
+		int32_t L_67 = ___1_allocator;
+		NativeArray_1__ctor_m262609CCB123CE8BB59524B83D08D2CFA8C33A86((&V_15), L_66, L_67, 1, NULL);
+		int32_t L_68 = V_14;
+		int32_t L_69 = ___1_allocator;
+		NativeArray_1__ctor_mFF0947593CDFCB7E202D87A3000C4E66C1647856((&V_16), L_68, L_69, 1, NULL);
+		int32_t L_70 = V_14;
+		int32_t L_71 = ___1_allocator;
+		NativeArray_1__ctor_m262609CCB123CE8BB59524B83D08D2CFA8C33A86((&V_17), L_70, L_71, 1, NULL);
+		int32_t L_72 = V_14;
+		int32_t L_73 = ___1_allocator;
+		NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004((&V_18), L_72, L_73, 1, NULL);
+		V_19 = 0;
+		goto IL_02a5;
+	}
+
+IL_022a:
+	{
+		int32_t L_74 = V_19;
+		CHECKED_LOCAL_INIT(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticInit,(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_75;
+		L_75 = MetaOpenXRHandMeshData_OpenXRCondensedIndexToUnityJointIndex_mDE8F6D4DA9CC4619E931D2DEAF99EC852CB899AA(L_74, NULL);
+		V_20 = L_75;
+		int32_t L_76 = V_20;
+		if ((((int32_t)L_76) < ((int32_t)0)))
+		{
+			goto IL_029f;
+		}
+	}
+	{
+		int32_t L_77 = V_20;
+		int32_t L_78 = V_14;
+		if ((((int32_t)L_77) >= ((int32_t)L_78)))
+		{
+			goto IL_029f;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_21), sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6));
+		int32_t L_79 = V_19;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_80;
+		L_80 = IL2CPP_NATIVEARRAY_GET_ITEM(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, ((&V_5))->___m_Buffer, L_79);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81 = L_80.___position;
+		int32_t L_82 = V_19;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_83;
+		L_83 = IL2CPP_NATIVEARRAY_GET_ITEM(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, ((&V_5))->___m_Buffer, L_82);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_84 = L_83.___rotation;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85;
+		L_85 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		Matrix4x4_SetTRS_m8002A569FE81574DABE86044C8FF6F7C44DA21AA_inline((&V_21), L_81, L_84, L_85, NULL);
+		int32_t L_86 = V_20;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_87 = V_21;
+		IL2CPP_NATIVEARRAY_SET_ITEM(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6, ((&V_16))->___m_Buffer, L_86, (L_87));
+		int32_t L_88 = V_20;
+		int32_t L_89 = V_19;
+		float L_90;
+		L_90 = IL2CPP_NATIVEARRAY_GET_ITEM(float, ((&V_6))->___m_Buffer, L_89);
+		IL2CPP_NATIVEARRAY_SET_ITEM(float, ((&V_18))->___m_Buffer, L_88, (L_90));
+		int32_t L_91 = V_20;
+		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&V_15))->___m_Buffer, L_91, ((bool)1));
+		int32_t L_92 = V_20;
+		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&V_17))->___m_Buffer, L_92, ((bool)1));
+	}
+
+IL_029f:
+	{
+		int32_t L_93 = V_19;
+		V_19 = ((int32_t)il2cpp_codegen_add(L_93, 1));
+	}
+
+IL_02a5:
+	{
+		int32_t L_94 = V_19;
+		int32_t L_95 = V_1;
+		if ((((int32_t)L_94) < ((int32_t)L_95)))
+		{
+			goto IL_022a;
+		}
+	}
+	{
+		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB L_96 = V_15;
+		XRHandMeshData_SetMatchingJointBindPoseValidity_mB26B232C34D1E4C634A5CD4E870F25156819A7A0((&V_13), L_96, NULL);
+		NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 L_97 = V_16;
+		XRHandMeshData_SetJointBindPoses_m040902019DFC53B1A521393D45724C0381E54C26((&V_13), L_97, NULL);
+		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB L_98 = V_17;
+		XRHandMeshData_SetMatchingJointRadiusValidity_m121F276D5E0EC20FB1A5AF601E6905ACBDB37643((&V_13), L_98, NULL);
+		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_99 = V_18;
+		XRHandMeshData_SetJointRadii_m9F019C3F65299B28182CF8C93E9351467A264AB4((&V_13), L_99, NULL);
+		NativeArray_1_Dispose_m268FFF017FCAC1B2C7C25F50382BFE0E63EB9D8C((&V_4), NativeArray_1_Dispose_m268FFF017FCAC1B2C7C25F50382BFE0E63EB9D8C_RuntimeMethod_var);
+		NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6((&V_5), NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_RuntimeMethod_var);
+		NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6((&V_6), NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6_RuntimeMethod_var);
+	}
+
+IL_02e3:
+	{
+		int32_t L_100 = V_3;
+		if ((((int32_t)L_100) <= ((int32_t)0)))
+		{
+			goto IL_038e;
+		}
+	}
+	{
+		int32_t L_101 = V_3;
+		int32_t L_102 = ___1_allocator;
+		NativeArray_1__ctor_m981CC7E27B6C9946024877F2696920951443B04F((&V_22), L_101, L_102, 1, NULL);
+		V_24 = 0;
+		goto IL_0309;
+	}
+
+IL_02f9:
+	{
+		int32_t L_103 = V_24;
+		IL2CPP_NATIVEARRAY_SET_ITEM(uint8_t, ((&V_22))->___m_Buffer, L_103, ((uint8_t)4));
+		int32_t L_104 = V_24;
+		V_24 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+	}
+
+IL_0309:
+	{
+		int32_t L_105 = V_24;
+		int32_t L_106;
+		L_106 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_22))->___m_Length);
+		if ((((int32_t)L_105) < ((int32_t)L_106)))
+		{
+			goto IL_02f9;
+		}
+	}
+	{
+		int32_t L_107 = V_3;
+		int32_t L_108 = ___1_allocator;
+		NativeArray_1__ctor_mA343D643CB081518C3592D77B4668B00DA420AC9((&V_23), ((int32_t)il2cpp_codegen_multiply(L_107, 4)), L_108, 1, NULL);
+		V_25 = 0;
+		goto IL_0363;
+	}
+
+IL_0325:
+	{
+		il2cpp_codegen_initobj((&V_26), sizeof(BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F));
+		int32_t L_109 = V_25;
+		int32_t L_110;
+		L_110 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&V_11))->___m_Buffer, L_109);
+		CHECKED_LOCAL_INIT(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticInit,(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_111;
+		L_111 = MetaOpenXRHandMeshData_OpenXRCondensedIndexToUnityJointIndex_mDE8F6D4DA9CC4619E931D2DEAF99EC852CB899AA(L_110, NULL);
+		BoneWeight1_set_boneIndex_m3DC5B02092B8744AD7ACC6B0385FCD7B5B94DC97_inline((&V_26), L_111, NULL);
+		int32_t L_112 = V_25;
+		float L_113;
+		L_113 = IL2CPP_NATIVEARRAY_GET_ITEM(float, ((&V_12))->___m_Buffer, L_112);
+		BoneWeight1_set_weight_mB933F788F48F33DBF1B353250D3ACC8DBD0B77B2_inline((&V_26), L_113, NULL);
+		int32_t L_114 = V_25;
+		BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F L_115 = V_26;
+		IL2CPP_NATIVEARRAY_SET_ITEM(BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F, ((&V_23))->___m_Buffer, L_114, (L_115));
+		int32_t L_116 = V_25;
+		V_25 = ((int32_t)il2cpp_codegen_add(L_116, 1));
+	}
+
+IL_0363:
+	{
+		int32_t L_117 = V_25;
+		int32_t L_118;
+		L_118 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_23))->___m_Length);
+		if ((((int32_t)L_117) < ((int32_t)L_118)))
+		{
+			goto IL_0325;
+		}
+	}
+	{
+		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_11), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
+		NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6((&V_12), NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6_RuntimeMethod_var);
+		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_119 = V_22;
+		XRHandMeshDataExtensions_SetBonesPerVertex_m1DFD1706F4C527F1FC66887836E0BD87E4ECD52D((&V_13), L_119, NULL);
+		NativeArray_1_t62CD8F5E86F8BCBFA098B030B9E6FA5BE826455E L_120 = V_23;
+		XRHandMeshDataExtensions_SetBoneWeights_m6D0BFDB803A5F60E59611A555BCFB2B049AF334C((&V_13), L_120, NULL);
+	}
+
+IL_038e:
+	{
+		XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* L_121 = ___0_result;
+		XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 L_122 = V_13;
+		XRHandMeshDataQueryResultExtensions_FlushChanges_m9CBCFF91C2694481A2FDA013C6C7E6ACD963D955(L_121, L_122, NULL);
+		return (bool)1;
+	}
+}
+// Method Definition Index: 77102
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaOpenXRHandMeshData_OnSubsystemStart_mB038B85FDFEDBF8B38235ACCFB2919CC8309E424 (MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral919C5C755A41E9C44D909492C10DA17D0C000992);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBDC4F981632298101FD2D1F320BBDE99FD9050AE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFE607C14C59FCB309C49552E8D59280FD6BB4BB);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticInit);
+	CHECKED_LOCAL(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticInit);
+	CHECKED_LOCAL(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_StaticInit);
+	//<source_info:<no-source>:1>
+	Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1* V_1 = NULL;
+	{
+		bool L_0;
+		L_0 = Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B(_stringLiteralBDC4F981632298101FD2D1F320BBDE99FD9050AE, NULL);
+		if (L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		CHECKED_LOCAL_INIT(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticInit,(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral919C5C755A41E9C44D909492C10DA17D0C000992, NULL);
+		Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242(_stringLiteralBDC4F981632298101FD2D1F320BBDE99FD9050AE, NULL);
+	}
+
+IL_0020:
+	{
+		CHECKED_LOCAL_INIT(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticInit,(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_1 = ((MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticFields*)il2cpp_codegen_static_fields_for(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		CHECKED_LOCAL_INIT(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_StaticInit,(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_1, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_2 = ((MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticFields*)il2cpp_codegen_static_fields_for(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		NullCheck(L_2);
+		Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 L_3;
+		L_3 = List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A(L_2, NULL);
+		V_0 = L_3;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_006a:
+			{
+				Enumerator_Dispose_m86E1F3F8308D0DEAD0F6F76BA76F94DC8B2073AE((&V_0), NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_005f_1;
+			}
+
+IL_0037_1:
+			{
+				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_4;
+				L_4 = Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_inline((&V_0), NULL);
+				XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_5;
+				L_5 = SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55(L_4, NULL);
+				V_1 = ((OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1*)IsInstClass((RuntimeObject*)L_5, OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1_il2cpp_TypeInfo_var));
+				OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1* L_6 = V_1;
+				if (!L_6)
+				{
+					goto IL_005f_1;
+				}
+			}
+			{
+				OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1* L_7 = V_1;
+				NullCheck(L_7);
+				OpenXRHandProvider_set_handMeshDataSupplier_m90F86479CABEE6580957B4DFA390A3BEC74055FF_inline(L_7, __this, NULL);
+				CHECKED_LOCAL_INIT(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticInit,(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+				List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_8 = ((MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticFields*)il2cpp_codegen_static_fields_for(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+				NullCheck(L_8);
+				List_1_Clear_mA8DB8A7C0BB7FB3593D4AF91C5A693116E2CB9FF_inline(L_8, NULL);
+				goto IL_008c;
+			}
+
+IL_005f_1:
+			{
+				bool L_9;
+				L_9 = Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B((&V_0), NULL);
+				if (L_9)
+				{
+					goto IL_0037_1;
+				}
+			}
+			{
+				goto IL_0078;
+			}
+		}
+		catch(Il2CppNativeThreadAbortException&)
+		{
+			__finallyBlock.SetNativeThreadAbortOccurred();
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0078:
+	{
+		CHECKED_LOCAL_INIT(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticInit,(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_10 = ((MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticFields*)il2cpp_codegen_static_fields_for(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		NullCheck(L_10);
+		List_1_Clear_mA8DB8A7C0BB7FB3593D4AF91C5A693116E2CB9FF_inline(L_10, NULL);
+		CHECKED_LOCAL_INIT(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticInit,(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralFFE607C14C59FCB309C49552E8D59280FD6BB4BB, NULL);
+	}
+
+IL_008c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 77103
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MetaOpenXRHandMeshData_OpenXRCondensedIndexToUnityJointIndex_mDE8F6D4DA9CC4619E931D2DEAF99EC852CB899AA (int32_t ___0_condensedIndex, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___0_condensedIndex;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return 1;
+	}
+
+IL_0005:
+	{
+		int32_t L_1 = ___0_condensedIndex;
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_000b:
+	{
+		int32_t L_2 = ___0_condensedIndex;
+		return L_2;
+	}
+}
+// Method Definition Index: 77104
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaOpenXRHandMeshData__ctor_m3060196B6F8A4C49EF543780EF121EC01B5AE181 (MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		OpenXRFeature__ctor_m120460E34ECC22ED2DB96797A6DCB5C870E78852(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 77105
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaOpenXRHandMeshData__cctor_mE25268C94B9D7FAE6FB0E95B8757F9579E60B0D8 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_0 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
+		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_0, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
+		((MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticFields*)il2cpp_codegen_static_fields_for(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var))->___s_SubsystemsReuse = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_StaticFields*)il2cpp_codegen_static_fields_for(MetaOpenXRHandMeshData_t75501DC062ED373CA6DFA558768AC30648FADD83_il2cpp_TypeInfo_var))->___s_SubsystemsReuse), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 77106
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_TryGetHandMeshDataCounts_m08E1A2F988D036F80A50A131D989130FB72D3C7C (int32_t* ___0_jointCount, int32_t* ___1_indexCount, int32_t* ___2_vertexCount, uint64_t ___3_xrHandTracker, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef int32_t (STDCALL *PInvokeFunc) (int32_t*, int32_t*, int32_t*, uint64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_UnityOpenXR_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t*) + sizeof(int32_t*) + sizeof(int32_t*) + sizeof(uint64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("UnityOpenXR"), "UnityOpenXRHands_TryGetHandMeshDataCounts", IL2CPP_CALL_STDCALL, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_UnityOpenXR_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityOpenXRHands_TryGetHandMeshDataCounts)(___0_jointCount, ___1_indexCount, ___2_vertexCount, ___3_xrHandTracker);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_jointCount, ___1_indexCount, ___2_vertexCount, ___3_xrHandTracker);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 77107
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_TryGetHandMeshData_mA8ED491D751CB23590634882899722EA0FCB9C21 (uint64_t ___0_xrHandTracker, int32_t ___1_jointCount, void* ___2_jointIDs, void* ___3_jointBindPoses, void* ___4_jointRadii, int32_t ___5_indexCount, void* ___6_indices, int32_t ___7_vertexCount, void* ___8_positions, void* ___9_normals, void* ___10_uvs, void* ___11_blendIndices, void* ___12_blendWeights, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef int32_t (STDCALL *PInvokeFunc) (uint64_t, int32_t, void*, void*, void*, int32_t, void*, int32_t, void*, void*, void*, void*, void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_UnityOpenXR_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(uint64_t) + sizeof(int32_t) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(int32_t) + sizeof(void*) + sizeof(int32_t) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("UnityOpenXR"), "UnityOpenXRHands_TryGetHandMeshData", IL2CPP_CALL_STDCALL, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_UnityOpenXR_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityOpenXRHands_TryGetHandMeshData)(___0_xrHandTracker, ___1_jointCount, ___2_jointIDs, ___3_jointBindPoses, ___4_jointRadii, ___5_indexCount, ___6_indices, ___7_vertexCount, ___8_positions, ___9_normals, ___10_uvs, ___11_blendIndices, ___12_blendWeights);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_xrHandTracker, ___1_jointCount, ___2_jointIDs, ___3_jointBindPoses, ___4_jointRadii, ___5_indexCount, ___6_indices, ___7_vertexCount, ___8_positions, ___9_normals, ___10_uvs, ___11_blendIndices, ___12_blendWeights);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 77108
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NativeApi_GetXrResult_mBB0DE9634F3AD39CD7591A7487275C26A773D613 (const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef int64_t (STDCALL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_UnityOpenXR_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("UnityOpenXR"), "UnityOpenXRHands_GetHandMeshXrResult", IL2CPP_CALL_STDCALL, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_UnityOpenXR_INTERNAL
+	int64_t returnValue = reinterpret_cast<PInvokeFunc>(UnityOpenXRHands_GetHandMeshXrResult)();
+	#else
+	int64_t returnValue = il2cppPInvokeFunc();
+	#endif
+
+	return returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 63377
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandMeshDataQueryParams_get_allocator_mAEC1A96EDDB235C4C9151AEDE3C51647B314A90C_inline (XRHandMeshDataQueryParams_tD2F5B8FA7C69F106E535B66025498042C430A7C9* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->___U3CallocatorU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 63382
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 XRHandMeshDataQueryResult_get_rightHand_m140AF204DC793948EF032F9218892B205F916AF3_inline (XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 L_0 = __this->___m_RightHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 63380
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 XRHandMeshDataQueryResult_get_leftHand_m0AF3981474F9C9CFDE7DF92C5D1DF0538E95B10D_inline (XRHandMeshDataQueryResult_t31A040EB23A57CAAFEC4227E049BA03F8C1638F5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		XRHandMeshData_tEFF8D4C31C74592FEC9F6DA672B2AF9B431F4BB6 L_0 = __this->___m_LeftHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 42567
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 42472
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Matrix4x4_SetTRS_m8002A569FE81574DABE86044C8FF6F7C44DA21AA_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Matrix4x4_Internal_SetTRS_m2610FA3527F167AB26DF3712CAA6A958225017C9(__this, (&___0_pos), (&___1_q), (&___2_s), NULL);
+		return;
+	}
+}
+// Method Definition Index: 41913
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BoneWeight1_set_boneIndex_m3DC5B02092B8744AD7ACC6B0385FCD7B5B94DC97_inline (BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___0_value;
+		__this->___m_BoneIndex = L_0;
+		return;
+	}
+}
+// Method Definition Index: 41911
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BoneWeight1_set_weight_mB933F788F48F33DBF1B353250D3ACC8DBD0B77B2_inline (BoneWeight1_t7649BFE1ACB15FE000C995A416EFF9F32C5EA55F* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = ___0_value;
+		__this->___m_Weight = L_0;
+		return;
+	}
+}
+// Method Definition Index: 63286
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OpenXRHandProvider_set_handMeshDataSupplier_m90F86479CABEE6580957B4DFA390A3BEC74055FF_inline (OpenXRHandProvider_t2C7AE9EA8D6684D804E1EA6CE4060638FFDCEDC1* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = ___0_value;
+		__this->___U3ChandMeshDataSupplierU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ChandMeshDataSupplierU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 40288
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafePtr_TisIl2CppFullySharedGenericStruct_m4AB802D5B1B296D0F976C1E7631699B0C4A4D00F_fshared_inline (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 ___0_nativeArray, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_0 = ___0_nativeArray;
+		void* L_1 = L_0.___m_Buffer;
+		return L_1;
+	}
+}
+// Method Definition Index: 40189
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m527A2C3B75C25BFF29D1D9EA88C81172FF4F5A5A_fshared_inline (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		void* L_0 = __this->___m_Buffer;
+		uintptr_t L_1 = (il2cpp_codegen_conv<uintptr_t,int32_t,int32_t,false,false>(0,NULL));
+		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 9168
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* Enumerator_get_Current_mA50CED82C4671CC4E1D82333FAC2587F700565D0_gshared_inline (Enumerator_tC367FBE981D257FF6A6357382526F6EC9FF3B2F9* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Il2CppSharedGenericObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 9127
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mCCC05B98943E8F4E0F6FBF47063A269048AE71E5_gshared_inline (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
