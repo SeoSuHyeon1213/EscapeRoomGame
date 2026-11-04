@@ -71,6 +71,7 @@ sysinfo.txt
 mono_crash.*
 
 # Builds
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
 *.apk
 *.aab
 *.unitypackage
