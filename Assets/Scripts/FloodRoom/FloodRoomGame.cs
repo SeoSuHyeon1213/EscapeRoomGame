@@ -22,6 +22,8 @@ namespace FloodRoom
         // 수위가 눈금에 이 시간 이상 머물러야 해치가 열린다.
         const float LatchTolerance = 0.04f;
         const float LatchHoldSeconds = 1.5f;
+        const float KnockInterval = 0.5f;
+        const float KnockGroupPause = 1.8f;
         const float WheelInstallDistance = 0.2f;
         const int TotalScrews = 4;
         const float HeadAboveWater = 0.2f;
@@ -92,7 +94,9 @@ namespace FloodRoom
         float latchTimer;
         bool floating;
         Coroutine knockRoutine;
+        bool drainKnockPlayed;
         FloodWaterEffects waterEffects;
+        ExplainManager explanation;
 
         void Awake()
         {
@@ -121,13 +125,39 @@ namespace FloodRoom
             keypad.CodeRejected += OnCodeRejected;
             valveWheel.Pressed += TurnValve;
             drainSocketPress.Pressed += CloseDrain;
+            RestoreVentScrewReferences();
             foreach (Pressable screw in ventScrews)
             {
+                if (screw == null) continue;
                 Pressable current = screw;
                 current.Pressed += () => RemoveScrew(current);
             }
 
+            if (!TryGetComponent(out explanation))
+                explanation = gameObject.AddComponent<ExplainManager>();
+            explanation.Initialize(origin != null ? origin.Camera : Camera.main);
+            explanation.KnockExplain();
+
             knockRoutine = StartCoroutine(KnockLoop());
+        }
+
+        void RestoreVentScrewReferences()
+        {
+            if (ventGrille == null || ventGrille.transform.parent == null ||
+                !System.Array.Exists(ventScrews, screw => screw == null)) return;
+
+            foreach (Transform child in ventGrille.transform.parent)
+            {
+                int missing = System.Array.FindIndex(ventScrews, screw => screw == null);
+                if (missing < 0) break;
+                if (child.name.StartsWith("Vent Screw ", System.StringComparison.Ordinal) &&
+                    child.TryGetComponent(out Pressable candidate) &&
+                    System.Array.IndexOf(ventScrews, candidate) < 0)
+                    ventScrews[missing] = candidate;
+            }
+
+            if (System.Array.Exists(ventScrews, screw => screw == null))
+                Debug.LogWarning("FloodRoom is missing one or more vent screw references.", this);
         }
 
         static void PlayLoop(AudioSource source, AudioClip clip)
@@ -162,7 +192,13 @@ namespace FloodRoom
             {
                 float speed = WaterLevel < floodPauseLevel ? floodSpeed : airLossSpeed;
                 WaterLevel += speed * Time.deltaTime;
-                if (WaterLevel >= ceilingHeight - DrownMargin) Drown();
+                if (WaterLevel >= ceilingHeight - DrownMargin)
+                    Drown();
+                else if (!drainKnockPlayed && WaterLevel >= stream.parent.position.y)
+                {
+                    drainKnockPlayed = true;
+                    StartCoroutine(PlaySubmergedKnocks());
+                }
             }
             else
             {
@@ -188,6 +224,7 @@ namespace FloodRoom
             drainWheelGrab.enabled = true;
             spareBatteryGrab.enabled = true;
             effectSource.PlayOneShot(turnClip);
+            explanation.HatchExplain();
             DipLamp();
         }
 
@@ -206,6 +243,7 @@ namespace FloodRoom
             {
                 floating = shouldFloat;
                 if (gravity != null) gravity.useGravity = !floating;
+                if (floating && Stage == GameStage.FinalFlood) explanation.VentExplain();
             }
             if (!floating) return;
 
@@ -218,8 +256,8 @@ namespace FloodRoom
 
         IEnumerator KnockLoop()
         {
-            var betweenKnocks = new WaitForSeconds(0.5f);
-            var betweenGroups = new WaitForSeconds(1.8f);
+            var betweenKnocks = new WaitForSeconds(KnockInterval);
+            var betweenGroups = new WaitForSeconds(KnockGroupPause);
             var betweenRepeats = new WaitForSeconds(7f);
 
             yield return new WaitForSeconds(4f);
@@ -250,6 +288,43 @@ namespace FloodRoom
             }
         }
 
+        IEnumerator PlaySubmergedKnocks()
+        {
+            // 물줄기가 잠긴 뒤, 같은 신호가 배수 밸브 아래에서 돌아온다.
+            yield return new WaitForSeconds(0.65f);
+            if (Stage != GameStage.FinalFlood) yield break;
+
+            var soundObject = new GameObject("Submerged Drain Knocks");
+            soundObject.transform.SetParent(drainSocket, false);
+            Vector3 position = drainSocket.position;
+            position.y = drainSocket.parent.position.y + 0.08f;
+            soundObject.transform.position = position;
+
+            AudioSource source = soundObject.AddComponent<AudioSource>();
+            source.playOnAwake = false;
+            source.spatialBlend = 1f;
+            source.spatialize = knockSource.spatialize;
+            source.outputAudioMixerGroup = knockSource.outputAudioMixerGroup;
+            source.rolloffMode = knockSource.rolloffMode;
+            source.minDistance = knockSource.minDistance;
+            source.maxDistance = knockSource.maxDistance;
+            source.pitch = 0.84f;
+            soundObject.AddComponent<AudioLowPassFilter>().cutoffFrequency = 680f;
+
+            var betweenKnocks = new WaitForSeconds(KnockInterval);
+            var betweenGroups = new WaitForSeconds(KnockGroupPause);
+            foreach (int count in knockGroups)
+            {
+                for (int i = 0; i < count; i++)
+                {
+                    if (Stage != GameStage.FinalFlood) yield break;
+                    source.PlayOneShot(knockClip, 0.9f);
+                    yield return betweenKnocks;
+                }
+                yield return betweenGroups;
+            }
+        }
+
         void Knock(float volume)
         {
             knockSource.PlayOneShot(knockClip, volume);
@@ -264,12 +339,14 @@ namespace FloodRoom
             cabinetDoor.Open();
             flashlightGrab.enabled = true;
             flashlightGrab.GetComponent<FlashlightItem>().Toggle(); // 문틈으로 빛이 새어 나온다.
+            explanation.FlashlightExplain();
         }
 
         void OnCodeRejected()
         {
             // 틀리면 벽 너머에서 즉시 응답이 온다.
             Knock(1f);
+            explanation.KnockExplain();
         }
 
         // ---------- 퍼즐 2: 밸브 ----------
@@ -285,6 +362,7 @@ namespace FloodRoom
             ValvePosition = (ValvePosition + 1) % valveLevels.Length;
             valveWheelVisual.Rotate(0f, 90f, 0f, Space.Self);
             effectSource.PlayOneShot(turnClip);
+            explanation.WaterExplain();
         }
 
         // ---------- 퍼즐 3: 스스로 방을 채운다 ----------
@@ -312,6 +390,7 @@ namespace FloodRoom
 
             drainSocketPress.GetComponent<XRSimpleInteractable>().enabled = true;
             effectSource.PlayOneShot(turnClip);
+            explanation.DrainExplain();
         }
 
         public void CloseDrain()
@@ -319,9 +398,11 @@ namespace FloodRoom
             if (Stage != GameStage.InstallWheel || !DrainWheelInstalled) return;
 
             Stage = GameStage.FinalFlood;
+            if (knockRoutine != null) StopCoroutine(knockRoutine);
             drainWheelGrab.transform.Rotate(0f, 180f, 0f, Space.Self);
             effectSource.PlayOneShot(turnClip);
             StartCoroutine(KillLamp());
+            explanation.FloodExplain();
         }
 
         IEnumerator KillLamp()
@@ -373,6 +454,7 @@ namespace FloodRoom
         IEnumerator Escape()
         {
             Stage = GameStage.Ended;
+            explanation.Hide();
             ventGrille.Open();
             yield return new WaitForSeconds(1.5f);
             yield return EndSequence("YOU GOT OUT", new Color(0f, 0f, 0f, 1f));
@@ -381,6 +463,7 @@ namespace FloodRoom
         void Drown()
         {
             Stage = GameStage.Ended;
+            explanation.Hide();
             StartCoroutine(EndSequence("THE AIR RAN OUT", new Color(0.01f, 0.03f, 0.04f, 1f)));
         }
 
