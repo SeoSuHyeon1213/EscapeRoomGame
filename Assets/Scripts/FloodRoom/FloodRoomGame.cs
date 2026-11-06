@@ -92,6 +92,7 @@ namespace FloodRoom
         float latchTimer;
         bool floating;
         Coroutine knockRoutine;
+        FloodWaterEffects waterEffects;
 
         void Awake()
         {
@@ -114,6 +115,7 @@ namespace FloodRoom
             knockClip = SynthAudio.Knock();
             PlayLoop(waterSource, SynthAudio.WaterLoop());
             PlayLoop(droneSource, SynthAudio.DroneLoop());
+            waterEffects = new FloodWaterEffects(water, stream, lamp, flashlightGrab.GetComponent<FlashlightItem>().spot, waterSource);
 
             keypad.CodeAccepted += OnCodeAccepted;
             keypad.CodeRejected += OnCodeRejected;
@@ -143,7 +145,12 @@ namespace FloodRoom
             UpdateLamp();
         }
 
-        void LateUpdate() => UpdateFloating();
+        void LateUpdate()
+        {
+            UpdateFloating();
+            waterEffects.Update(WaterLevel, ceilingHeight, Stage == GameStage.FinalFlood,
+                Stage == GameStage.Ended, origin != null ? origin.Camera : Camera.main, Time.deltaTime);
+        }
 
         // ---------- 수위 ----------
 
@@ -151,7 +158,6 @@ namespace FloodRoom
         {
             if (Stage == GameStage.Ended) return;
 
-            float previous = WaterLevel;
             if (Stage == GameStage.FinalFlood)
             {
                 float speed = WaterLevel < floodPauseLevel ? floodSpeed : airLossSpeed;
@@ -168,16 +174,6 @@ namespace FloodRoom
             Vector3 waterPosition = water.position;
             waterPosition.y = WaterLevel;
             water.position = waterPosition;
-
-            // 물줄기는 출구에서 수면까지 이어지고, 차오르는 동안 소리가 커진다.
-            Vector3 top = stream.parent.position;
-            float length = Mathf.Max(0.01f, top.y - WaterLevel);
-            stream.localScale = new Vector3(stream.localScale.x, length * 0.5f, stream.localScale.z);
-            stream.position = new Vector3(top.x, top.y - length * 0.5f, top.z);
-
-            bool rising = WaterLevel > previous;
-            float targetVolume = Stage == GameStage.FinalFlood ? 1f : rising ? 0.7f : 0.3f;
-            waterSource.volume = Mathf.MoveTowards(waterSource.volume, targetVolume, Time.deltaTime);
         }
 
         void UpdateLatch()
@@ -325,7 +321,6 @@ namespace FloodRoom
             Stage = GameStage.FinalFlood;
             drainWheelGrab.transform.Rotate(0f, 180f, 0f, Space.Self);
             effectSource.PlayOneShot(turnClip);
-            stream.localScale = new Vector3(stream.localScale.x * 3f, stream.localScale.y, stream.localScale.z * 3f);
             StartCoroutine(KillLamp());
         }
 

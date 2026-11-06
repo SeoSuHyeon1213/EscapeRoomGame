@@ -88,8 +88,7 @@ namespace FloodRoom.EditorTools
             metal = SaveMaterial("Metal", Lit(), new Color(0.22f, 0.24f, 0.25f));
             rust = SaveMaterial("Rust", Lit(), new Color(0.3f, 0.16f, 0.09f));
             paint = SaveMaterial("Valve Red", Lit(), new Color(0.42f, 0.06f, 0.05f));
-            waterMat = SaveMaterial("Water", Transparent(Lit()), new Color(0.05f, 0.11f, 0.1f, 0.82f));
-            waterMat.SetFloat("_Smoothness", 0.9f);
+            waterMat = SaveMaterial("Water", new Material(Shader.Find("FloodRoom/Water")), new Color(0.10f, 0.23f, 0.20f, 0.64f));
             scratchMat = SaveMaterial("Scratch", Transparent(Unlit()), new Color(0.82f, 0.8f, 0.7f, 0f));
             fadeMat = SaveMaterial("Fade", Transparent(Unlit()), new Color(0f, 0f, 0f, 0f));
             bulbMat = SaveMaterial("Bulb", Unlit(), new Color(1f, 0.9f, 0.68f));
