@@ -457,7 +457,7 @@ namespace FloodRoom
             explanation.Hide();
             ventGrille.Open();
             yield return new WaitForSeconds(1.5f);
-            yield return EndSequence("YOU GOT OUT", new Color(0f, 0f, 0f, 1f));
+            yield return EndSequence("YOU GOT OUT", new Color(0f, 0f, 0f, 1f), escaped: true);
         }
 
         void Drown()
@@ -467,7 +467,7 @@ namespace FloodRoom
             StartCoroutine(EndSequence("THE AIR RAN OUT", new Color(0.01f, 0.03f, 0.04f, 1f)));
         }
 
-        IEnumerator EndSequence(string message, Color fadeColor)
+        IEnumerator EndSequence(string message, Color fadeColor, bool escaped = false)
         {
             Camera view = origin != null ? origin.Camera : Camera.main;
 
@@ -481,10 +481,22 @@ namespace FloodRoom
             Material fade = new Material(fadeMaterial);
             quad.GetComponent<Renderer>().sharedMaterial = fade;
 
+            List<(AudioSource source, float volume)> endingAudio = null;
+            if (escaped)
+            {
+                endingAudio = new List<(AudioSource, float)>();
+                foreach (GameObject root in gameObject.scene.GetRootGameObjects())
+                    foreach (AudioSource source in root.GetComponentsInChildren<AudioSource>(true))
+                        endingAudio.Add((source, source.volume));
+            }
+
             for (float t = 0f; t < 1f; t += Time.deltaTime / 2.5f)
             {
                 fadeColor.a = t;
                 fade.SetColor("_BaseColor", fadeColor);
+                if (endingAudio != null)
+                    foreach (var (source, volume) in endingAudio)
+                        if (source != null) source.volume = volume * (1f - t);
                 yield return null;
             }
             fadeColor.a = 1f;
@@ -495,8 +507,20 @@ namespace FloodRoom
             view.clearFlags = CameraClearFlags.SolidColor;
             view.backgroundColor = Color.black;
             quad.SetActive(false); // 눈앞의 판이 글자를 가리지 않도록 치운다.
-            waterSource.Stop();
-            droneSource.Stop();
+            if (endingAudio != null)
+            {
+                foreach (var (source, _) in endingAudio)
+                {
+                    if (source == null) continue;
+                    source.volume = 0f;
+                    source.Stop();
+                }
+            }
+            else
+            {
+                waterSource.Stop();
+                droneSource.Stop();
+            }
 
             GameObject textObject = new GameObject("End Text") { layer = OverlayLayer };
             textObject.transform.SetParent(view.transform, false);
@@ -509,16 +533,19 @@ namespace FloodRoom
             text.alignment = TextAlignmentOptions.Center;
             text.rectTransform.sizeDelta = new Vector2(3f, 1f);
 
-            // 벗어났다고 끝이 아니다. 똑같은 두드림이 어둠 속에서 다시 들린다.
             yield return new WaitForSeconds(2f);
-            foreach (int count in knockGroups)
+            if (!escaped)
             {
-                for (int i = 0; i < count; i++)
+                // 익사한 뒤에는 어둠 속에서 같은 두드림이 다시 들린다.
+                foreach (int count in knockGroups)
                 {
-                    effectSource.PlayOneShot(knockClip);
-                    yield return new WaitForSeconds(0.5f);
+                    for (int i = 0; i < count; i++)
+                    {
+                        effectSource.PlayOneShot(knockClip);
+                        yield return new WaitForSeconds(KnockInterval);
+                    }
+                    yield return new WaitForSeconds(0.8f);
                 }
-                yield return new WaitForSeconds(0.8f);
             }
 
             yield return new WaitForSeconds(SecondsBeforeRestart);
